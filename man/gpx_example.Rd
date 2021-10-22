@@ -2,20 +2,17 @@
 % Please edit documentation in R/gpx_example.R
 \name{gpx_example}
 \alias{gpx_example}
-\title{Get an example GPX}
+\title{Get an example gpx}
 \usage{
 gpx_example(name = NULL)
 }
 \arguments{
-\item{name}{Name of the GPX file. Leave blank to display the list of
-examples.}
+\item{name}{Name of the gpx file. Leave blank to display the list of
+examples}
 }
 \description{
-Get an example GPX file from the package
+Get an exampe gpx file from the package
 }
 \examples{
-# list all examples
-gpx_example()
-# Return the path to one example
 gpx_example("trail_roche_doetre")
 }
